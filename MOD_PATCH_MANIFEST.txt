@@ -1,0 +1,45 @@
+Mod Patch Manifest - Codex v54
+==============================
+
+1873097578 - Real Space - Solar Storm
+-------------------------------------
+workshop/content/281990/1873097578/common/scripted_triggers/solarstorm_scripted_triggers.txt
+- Veraltete Ark-Ship-Abfrage auf aktuelle military_arkship_* Ship Sizes angepasst.
+
+937289339 - Real Space 4.0
+--------------------------
+workshop/content/281990/937289339/common/star_classes/00_star_classes.txt
+- Fehlerhafte/alte Star-Class-Reste bereinigt, die zu fehlenden DDS-Pfaden fuehren konnten.
+
+workshop/content/281990/937289339/common/scripted_effects/realspace_scripted_effects.txt
+- Veraltetes create_pop in relevanten Effekten auf create_pop_group migriert.
+
+workshop/content/281990/937289339/common/scripted_effects/system_ambient_effects.txt
+- Falschen Planet-Scope beim Entfernen von kaleidoscope_planet korrigiert:
+  remove_planet_flag -> remove_carrier_flag.
+
+workshop/content/281990/937289339/common/solar_system_initializers/federations_initializers.txt
+- Ungueltige Earth-Flag-Abfrage korrigiert:
+  has_planet_flag -> has_carrier_flag.
+- Entfernte/veraltete Shipyards wie colossus_yards und titan_yards aus Initializern bereinigt.
+
+workshop/content/281990/937289339/common/solar_system_initializers/pre_ftl_initializers.txt
+- Kompatibilitaetsanpassungen fuer aktuelle Pop-Erzeugung / Initializer-Scopes.
+
+workshop/content/281990/937289339/common/solar_system_initializers/special_system_initializers.txt
+- Kompatibilitaetsanpassungen fuer aktuelle Pop-Erzeugung / Initializer-Scopes.
+
+workshop/content/281990/937289339/common/solar_system_initializers/utopia_initializers.txt
+- Kompatibilitaetsanpassungen fuer aktuelle Pop-Erzeugung / Initializer-Scopes.
+
+workshop/content/281990/937289339/common/megastructures/18_dyson_swarm.txt
+- Verweise auf nicht vorhandene Cybernetics-Events entfernt.
+
+3082164342 - Real Space - New Arcologies
+----------------------------------------
+workshop/content/281990/3082164342/common/pop_jobs/newarcologies_jobs.txt
+- Ungueltigen job weight modifier repariert:
+  mult = value:job_weights_modifier|... -> factor = 1.25.
+
+workshop/content/281990/3082164342/common/districts/newarcologies_districts.txt
+- Nicht mehr existierende district convert_to Targets entfernt/bereinigt.

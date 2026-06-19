@@ -1,0 +1,15 @@
+# Local analysis output
+*.log
+*.tmp
+*.bak
+
+# Stellaris crash/debug artifacts
+crashes/
+dumps/
+logs/
+*.dmp
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+*.swp
