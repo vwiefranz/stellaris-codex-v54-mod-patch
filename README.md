@@ -52,8 +52,6 @@ Final repaired save used for testing:
 - `stellaris_codex_v54_mod_patch_overlay.zip` - ready-to-extract patch overlay
 - `workshop/` - unpacked overlay tree for review
 - `MOD_PATCH_MANIFEST.txt` - mod-by-mod change manifest
-- `forum-post-draft.md` - ready-to-edit forum post with placeholder download link
-- `README_INSTALL.txt` / `INSTALL.txt` - short installation instructions
 
 ## Notes
 
